@@ -9,31 +9,49 @@ Steps for academic Class:
 node Express is used to handle routing.
 
 The flow of this application:
-SERVER side    CLIENT side
-  1. start the SERVER listening on port 3000 with routes
-                2. connect to the port from the CLIENT 
-                3. display home.html
-                4. click on display Friends Button
-                5. "/friends" path is sent SERVER
-  6."app.get /friends" executes href file to display the raw data of /data/friends.js source
-                7. click on Survey Button
-                8. "/survey" path is sent to the SERVER
-  9. "app.post "/survey" sends the survey.html file to client
-                10 survey.html is displayed and user enters answers 
-                11."app.post /survey" path is sent when user clicks the submit button
-  12 "app.post /survey" calls the determineCompatibility module
-  13 send display modal with the matching user ids and photos
+SERVER side is blue   CLIENT side is green
+
+
+<ol type="1">
+  <li style="color:blue">Start the SERVER listening on port 3000 with routes</li>
+             <ol>
+                <li style="color: green">connect to the port from the CLIENT 
+                <li style="color: green">display home.html
+                <li style="color: green">click on display Friends Button
+                <li style="color: green">"/friends" path is sent SERVER
+              </ol>
+  <li style="color:blue">app.get /friends" executes href file to display the raw data of /data/friends.js source</li>
+              <ol>
+                <li "style="color: green">click on Survey Button
+                <li style="color: green">"/survey" path is sent to the SERVER
+               </ol>
+  <li style="color:blue">"app.post "/survey" sends the survey.html file to client</li>
+                <ol>
+                <li style="color: green">survey.html is displayed and user enters answers 
+                <li style="color: green">"app.post /survey" path is sent when user clicks the submit button</li>
+                </ol>
+  <li style="color:blue">"app.post /survey" calls the determineCompatibility module</li>
+  <li style="color:blue">send display modal with the matching user ids and photos</li>
+  </ol>
 ​
-### Working Demo
+https://mighty-castle-12131.herokuapp.com/
 ​
 ### File Directory
 FriendFinder
   - .gitignore
-  - app
+ public/assets
+  -images
+      - friends.js
+   - app
     - data
       -images
       - friends.js
-    - public
+    - js
+        -images
+             .jpg
+        -af.js
+        -determineCompatibles
+        - friendsData.js
       -css
           -reset.css
           -style.css
