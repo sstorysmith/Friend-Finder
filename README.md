@@ -11,7 +11,7 @@ node Express is used to handle routing.
 The flow of this application:
 SERVER side    CLIENT side
   1. start the SERVER listening on port 3000 with routes
-              2. connect to the port from the CLIENT 
+                2. connect to the port from the CLIENT 
                 3. display home.html
                 4. click on display Friends Button
                 5. "/friends" path is sent SERVER
