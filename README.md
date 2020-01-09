@@ -67,17 +67,6 @@ FriendFinder
   - package.json
   - server.js
 
-### Submission on BCS
-​
-* Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
-​
-
-​
-### Reminder: Submission on BCS
-​
-* Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
-​
-
 
 
 
